@@ -15,11 +15,11 @@ public class Panasonic extends Battery
 		return quantity;
 	}
 	
-	public double getPrice() {
+	public double getTotalPrice() {
 		return super.getPrice() * quantity;
 	}
 	
-	public double getVoltage() {
+	public double getTotalVoltage() {
 		return getVoltage() * quantity;
 	}
 	

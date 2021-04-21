@@ -46,7 +46,7 @@ public class Battery {
 	}
 	
 	public String toString() {
-		return "Brand: " + brand + "\n" + "Size: " + size + "\n" + "Voltage: " + voltage + "\n" + "Price: " + price;
+		return "Brand: " + brand + "\n" + "Size: " + size + "\n" + "Voltage: " + voltage + " Volts" + "\n" + "Price: RM " + price;
 	}
 
 }
